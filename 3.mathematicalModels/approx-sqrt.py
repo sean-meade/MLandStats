@@ -8,4 +8,6 @@ def sqrt(x):
         z -= (z*z - x) / (2*z)
     return z
 
-sqrt(8.0)
+z = sqrt(8.0)
+print(z)
+print(z*z)
